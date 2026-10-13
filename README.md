@@ -38,6 +38,10 @@ Works on Outer Wilds 1.1.16 with OWML 2.16. Works alongside [Landing Assist](htt
 
 Requires the .NET SDK. `dotnet build BetterAutopilot/BetterAutopilot.csproj -c Release` builds the mod; if the Outer Wilds Mod Manager is installed (Flatpak), the build also copies it into the manager's mods folder.
 
+## Made with AI assistance
+
+The code for this mod was written with the help of an AI assistant (Claude) and tested in-game by me. The cover art is AI-generated.
+
 ## License
 
 [MIT](LICENSE)
