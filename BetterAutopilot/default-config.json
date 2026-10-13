@@ -1,0 +1,99 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+  "enabled": true,
+  "settings": {
+    "thrusters": {
+      "title": "Autopilot Mode",
+      "type": "selector",
+      "value": "Fastest (3 thrusters)",
+      "options": [
+        "Game default",
+        "Fast (2 thrusters)",
+        "Fastest (3 thrusters)"
+      ],
+      "tooltip": "Game default uses the original autopilot. Fast and Fastest fire several thrusters at once for more speed and plan safer routes."
+    },
+    "autoOrient": {
+      "title": "Auto-Align",
+      "type": "toggle",
+      "value": true,
+      "tooltip": "Turns the ship during autopilot so it can thrust at full power. Steering yourself pauses it for a moment."
+    },
+    "departureView": {
+      "title": "Keep Destination In View When Leaving",
+      "type": "toggle",
+      "value": true,
+      "tooltip": "While speeding up, keeps the destination ahead of you in the window."
+    },
+    "arrivalView": {
+      "title": "Keep Destination In View When Braking",
+      "type": "toggle",
+      "value": false,
+      "tooltip": "While slowing down, keeps the destination ahead of you instead of behind you."
+    },
+    "faceTargetOnArrival": {
+      "title": "Face Destination On Arrival",
+      "type": "toggle",
+      "value": true,
+      "tooltip": "When the autopilot finishes, turns the ship to face where you arrived."
+    },
+    "avoidObstacles": {
+      "title": "Avoid Planets And Sun",
+      "type": "toggle",
+      "value": true,
+      "tooltip": "Plans routes around planets, moons and the Sun instead of flying straight through them."
+    },
+    "boostMatchVelocity": {
+      "title": "Faster Match Velocity",
+      "type": "toggle",
+      "value": true,
+      "tooltip": "Match Velocity also uses the extra thrust."
+    },
+    "maxSpeed": {
+      "title": "Speed Limit (0 = none)",
+      "type": "slider",
+      "value": 0,
+      "min": 0,
+      "max": 3000,
+      "tooltip": "Top speed for autopilot flights, in metres per second."
+    },
+    "brakingMargin": {
+      "title": "Braking Strength",
+      "type": "slider",
+      "value": 0.95,
+      "min": 0.5,
+      "max": 1.0,
+      "tooltip": "Lower values start braking earlier and arrive more gently."
+    },
+    "cycleThrustersKey": {
+      "title": "Autopilot Mode Key",
+      "type": "text",
+      "value": "J",
+      "tooltip": "Switches between autopilot modes while in the cockpit. Examples: J, F6, Numpad1."
+    },
+    "alignKey": {
+      "title": "Auto-Align Key",
+      "type": "text",
+      "value": "G",
+      "tooltip": "Turns auto-align on or off during autopilot. Examples: G, F6, Numpad1."
+    },
+    "cycleThrustersButton": {
+      "title": "Autopilot Mode Button (Controller)",
+      "type": "text",
+      "value": "DpadRight",
+      "tooltip": "Switches between autopilot modes while in the cockpit. Options: DpadLeft, DpadRight, DpadUp, DpadDown, North, South, East, West, LeftShoulder, RightShoulder, LeftStick, RightStick, Select, Start, None."
+    },
+    "alignButton": {
+      "title": "Auto-Align Button (Controller)",
+      "type": "text",
+      "value": "DpadLeft",
+      "tooltip": "Turns auto-align on or off during autopilot. Options: DpadLeft, DpadRight, DpadUp, DpadDown, North, South, East, West, LeftShoulder, RightShoulder, LeftStick, RightStick, Select, Start, None."
+    },
+    "debugLog": {
+      "title": "Debug Logging",
+      "type": "toggle",
+      "value": false,
+      "tooltip": "Writes flight details to the mod log, for reporting problems."
+    }
+  }
+}

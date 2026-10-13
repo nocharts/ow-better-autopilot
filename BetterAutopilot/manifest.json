@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "BetterAutopilot.dll",
+  "author": "nocharts",
+  "name": "Better Autopilot",
+  "uniqueName": "nocharts.BetterAutopilot",
+  "version": "0.1.0",
+  "owmlVersion": "2.16.3",
+  "dependencies": []
+}
