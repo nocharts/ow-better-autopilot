@@ -40,7 +40,11 @@ Requires the .NET SDK. `dotnet build BetterAutopilot/BetterAutopilot.csproj -c R
 
 ## Made with AI assistance
 
-The code for this mod was written with the help of an AI assistant (Claude) and tested in-game by me. The cover art is AI-generated.
+The code for this mod was written with the help of an AI assistant and tested in-game by me. The cover art is AI-generated.
+
+## Fan content notice
+
+This work is unofficial Fan Content created under permission from the Mobius Digital Fan Content Policy. It includes materials which are the property of Mobius Digital and it is neither approved nor endorsed by Mobius Digital.
 
 ## License
 
